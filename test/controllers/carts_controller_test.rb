@@ -21,8 +21,6 @@ class CartsControllerTest < ActionDispatch::IntegrationTest
     end
 
     assert_redirected_to cart_url(Cart.last)
-
-    assert_select '.total_price', /\$[,\d]+\.\d\d/
   end
 
   test "should show cart" do

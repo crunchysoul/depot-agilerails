@@ -10,6 +10,9 @@
 // Read Sprockets README (https://github.com/rails/sprockets#sprockets-directives) for details
 // about supported directives.
 //
+// Only install jquery, do not install jquery-ujs with rails-rjs
+//= require jquery
+//= require jquery-ui/effects/effect-blind
 //= require rails-ujs
 //= require turbolinks
 //= require_tree .

@@ -45,6 +45,9 @@ Rails.application.configure do
   # Suppress logger output for asset requests.
   config.assets.quiet = true
 
+  # Enable access from outside of localhost when running in development mode:
+  # config.action_cable.disable_request_forgery_protection = true
+
   # Raises error for missing translations
   # config.action_view.raise_on_missing_translations = true
 
