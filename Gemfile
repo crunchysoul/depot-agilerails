@@ -36,6 +36,8 @@ gem 'jbuilder', '~> 2.5'
 # Extra by Crunchy:
 gem 'jquery-rails'
 gem 'jquery-ui-rails'
+# Use ActiveModel has_secure_password
+gem 'bcrypt'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
